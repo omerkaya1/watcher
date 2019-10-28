@@ -1,0 +1,18 @@
+{
+  "db": {
+    "name": "calendar_db",
+    "user": "calendar_user",
+    "sslmode": "disable",
+    "host": "127.0.0.1",
+    "password": "some_pwd",
+    "port": "5432"
+  },
+  "queue": {
+    "host": "172.18.0.2",
+    "port": "5672",
+    "user": "guest",
+    "password": "guest",
+    "interval": "10s",
+    "queuename": "events"
+  }
+}
